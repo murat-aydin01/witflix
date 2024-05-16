@@ -1,4 +1,6 @@
-
+body {
+    font-family: "Bebas Neue";
+}
 header {
     display: flex;
     justify-content: space-between;
