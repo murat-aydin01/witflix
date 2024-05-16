@@ -1,44 +1,84 @@
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="index.css" />
     <title>WITFLIX</title>
-    <script src="https://kit.fontawesome.com/084118bda6.js" crossorigin="anonymous"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Chelsea+Market&family=Inter:wght@100..900&family=Poller+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-</head>
-<body>
+    <script
+      src="https://kit.fontawesome.com/084118bda6.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Chelsea+Market&family=Inter:wght@100..900&family=Poller+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
     <header>
-        <h1>netflix</h1>
-        <nav>
-            <div class="topic-btn">
-            <a href="">Topic 1</a>
-            <a href="">Topic 2</a>
-            <a href="">Topic 3</a>
-            <a href="">Topic 4</a>
-            </div>
-            
-            <div>
-                <input type="search" name="search" placeholder="Search Movies">
-                <i class="fa-solid fa-magnifying-glass"></i>
-                <img src="" class="user-img">
-            </div>
-        </nav>
+      <img src="./assets/Logo.svg" class="logo-img" />
+      <nav>
+        <div class="topic-btn">
+          <a href="">Topic 1</a>
+          <a href="">Topic 2</a>
+          <a href="">Topic 3</a>
+          <a href="">Topic 4</a>
+        </div>
+
+        <div class="user-btn">
+          <input type="search" name="search" placeholder="Search Movies" />
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <img src="" class="user-img" />
+        </div>
+      </nav>
     </header>
-   
     <section class="main-section">
-
+      <div class="movie-card">
+        <h1 class="movie-name">MOVIVE NAME</h1>
+        <div class="movie-rating">
+          <span class="puan">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            7.3 IMDB
+          </span>
+          <span class="yas">16+</span>
+          <span class="duration">2 h 10 min</span>
+        </div>
+        <p class="ozet">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+          reiciendis debitis in dolores itaque veritatis! Asperiores doloribus
+          hic, recusandae, corrupti autem vero labore aut beatae voluptatem,
+          repudiandae impedit ut possimus?
+        </p>
+        <div class="movie-genre">
+          <div>
+            <span class="red">Starring:</span>
+            <span>Lorem ipsum dolor sit.</span>
+          </div>
+          <div>
+            <span class="red">Genre:</span>
+            <span>Lorem ipsum dolor sit.</span>
+          </div>
+          <div>
+            <span class="red">Tags:</span>
+            <span>Lorem ipsum dolor sit.</span>
+          </div>
+        </div>
+        <div class="btn-lg">
+          <i class="fa-solid fa-play"></i>
+          <span>Play Now</span>
+        </div>
+      </div>
     </section>
-    
-    <section class="recommend-section">
 
-    </section>
+    <section class="recommend-section"></section>
 
-    <footer>
-
-    </footer>
-</body>
+    <footer></footer>
+  </body>
 </html>
