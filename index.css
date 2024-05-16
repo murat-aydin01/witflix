@@ -1,4 +1,9 @@
 body {
+    margin: 0;
+    padding: 0;
+    font-family: Inter;
+}
+h1 {
     font-family: "Bebas Neue";
 }
 header {
